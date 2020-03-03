@@ -1,0 +1,46 @@
+.header-img-container {
+    height: 800px;
+    position: relative;
+
+    img{
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        // max-height: 50%;
+        // max-width: 100%;
+    }
+
+    h1{
+        //z-index: 100;
+        position: absolute;
+        left:50%;
+        top:30%;
+        transform: translate(-50%, -50%); 
+        color: @salmon;
+        font-size: 7em;
+    }
+
+    .btn{
+        position: absolute;
+        left:50%;
+        top:50%;
+        transform: translate(-50%, -50%); 
+        width: 150px;
+        height: 70px;
+        font-size: 1.8rem;
+        border-radius: 10px;
+        border: none;
+        background-color: @salmon;
+        color: @beige;
+    }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background-color: @beige;
+
+    //media q goes here
+}

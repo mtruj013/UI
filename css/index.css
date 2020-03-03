@@ -126,3 +126,99 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Average', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  width: 100%;
+}
+nav .header-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+nav .header-container h1 {
+  font-size: 1.9rem;
+  color: #E85A4F;
+}
+nav .header-container a {
+  color: #8E8D8A;
+  text-decoration: none;
+  font-size: 1.9rem;
+  margin: 10px;
+}
+nav .header-container a:hover {
+  color: #E85A4F;
+  text-decoration: underline;
+}
+.header-img-container {
+  height: 800px;
+  position: relative;
+}
+.header-img-container img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.header-img-container h1 {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  color: #E85A4F;
+  font-size: 7em;
+}
+.header-img-container .btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 70px;
+  font-size: 1.8rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #E85A4F;
+  color: #EAE7DC;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background-color: #EAE7DC;
+}
