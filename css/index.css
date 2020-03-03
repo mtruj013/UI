@@ -200,7 +200,7 @@ nav .header-container a:hover {
   left: 50%;
   top: 30%;
   transform: translate(-50%, -50%);
-  color: #E85A4F;
+  color: white;
   font-size: 7em;
 }
 .header-img-container .btn {
@@ -221,4 +221,43 @@ header {
   justify-content: space-evenly;
   padding: 20px 0;
   background-color: #EAE7DC;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.about-container h2 {
+  font-size: 4rem;
+}
+.about-container .features {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: space-around;
+}
+.about-container .features .follow,
+.about-container .features .post,
+.about-container .features .blog {
+  width: 30%;
+  text-align: center;
+  border: solid #E85A4F;
+  padding: 20px;
+  margin: 10px;
+  background-color: #E85A4F;
+  border-radius: 8px;
+}
+.about-container .features .follow h3,
+.about-container .features .post h3,
+.about-container .features .blog h3 {
+  font-size: 3rem;
+  padding: 30px;
+}
+.about-container .features .follow .fas,
+.about-container .features .post .fas,
+.about-container .features .blog .fas {
+  font-size: 7rem;
 }

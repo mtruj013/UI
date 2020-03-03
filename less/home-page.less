@@ -16,8 +16,9 @@
         left:50%;
         top:30%;
         transform: translate(-50%, -50%); 
-        color: @salmon;
+        color:white;
         font-size: 7em;
+       
     }
 
     .btn{
@@ -35,7 +36,6 @@
     }
 }
 
-
 header {
     display: flex;
     justify-content: space-evenly;
@@ -43,4 +43,48 @@ header {
     background-color: @beige;
 
     //media q goes here
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+
+
+
+    h2{
+        font-size: 4rem;
+    }
+
+    .features{
+        padding-top: 20px; 
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        justify-content: space-around;
+        
+        
+
+        .follow, .post, .blog{
+            h3{
+                font-size: 3rem;
+                padding: 30px;
+                
+            }
+            .fas{
+                font-size: 7rem;
+            }
+            width: 30%;
+            text-align: center;
+            border: solid @salmon;
+            padding: 20px;
+            margin: 10px;
+            background-color: @salmon;
+            border-radius: 8px;
+        }
+
+      
+    }
 }
