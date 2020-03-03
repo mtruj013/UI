@@ -226,14 +226,16 @@ header {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
 }
 .about-container h2 {
-  font-size: 4rem;
+  font-size: 6rem;
+  padding: 30px;
 }
 .about-container .features {
   padding-top: 20px;
+  padding-bottom: 30px;
   display: flex;
   align-items: center;
   margin: 10px;
