@@ -238,6 +238,9 @@ nav .footer-nav-container a:hover {
     display: none;
   }
 }
+nav .team-header {
+  margin: 0;
+}
 footer {
   background-color: #EAE7DC;
 }
@@ -391,4 +394,92 @@ header {
   line-height: 0.1rem;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+}
+.team-header {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background-color: #EAE7DC;
+}
+.meet-container {
+  padding: 30px;
+}
+.meet-container h1 {
+  font-size: 8rem;
+  text-align: center;
+  padding: 50px;
+}
+.team1 {
+  display: flex;
+  padding: 40px;
+}
+.team1 .kelly,
+.team1 .nicole,
+.team1 .jonathan,
+.team1 .jacob {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  margin: 30px;
+}
+.team1 .kelly .fab,
+.team1 .nicole .fab,
+.team1 .jonathan .fab,
+.team1 .jacob .fab {
+  font-size: 3rem;
+}
+.team1 .kelly h2,
+.team1 .nicole h2,
+.team1 .jonathan h2,
+.team1 .jacob h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team1 .kelly h3,
+.team1 .nicole h3,
+.team1 .jonathan h3,
+.team1 .jacob h3 {
+  font-size: 2rem;
+}
+.team1 .kelly p,
+.team1 .nicole p,
+.team1 .jonathan p,
+.team1 .jacob p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+.team2 {
+  display: flex;
+  padding: 40px;
+}
+.team2 .michael,
+.team2 .daniel,
+.team2 .maria {
+  flex-direction: column;
+  width: 20%;
+  margin: 40px;
+}
+.team2 .michael .fab,
+.team2 .daniel .fab,
+.team2 .maria .fab {
+  font-size: 3rem;
+}
+.team2 .michael h2,
+.team2 .daniel h2,
+.team2 .maria h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.team2 .michael h3,
+.team2 .daniel h3,
+.team2 .maria h3 {
+  font-size: 2rem;
+}
+.team2 .michael p,
+.team2 .daniel p,
+.team2 .maria p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2rem;
 }
