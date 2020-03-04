@@ -1,6 +1,4 @@
 nav {
-    // display: flex;
-    // justify-content: space-around;
     width: 100%;
     
     .header-container{
@@ -28,5 +26,32 @@ nav {
         }//closes links
 
     }//closes header container
+
+    .footer-nav-container{
+        display: flex;
+        justify-content: space-between;
+       // margin-left: 40px;
+       // margin-right: 40px;
+       // width: 100%;
+       padding-left: 20px;
+       padding-right: 20px;
+
+        h1{
+            font-size: 1.9rem;
+            color: @salmon;
+        }
+
+        a{
+            color: @grey;
+            text-decoration: none;
+            font-size: 1.9rem;
+            margin: 10px;
+
+            &:hover{
+                color: @salmon;
+                text-decoration: underline;
+            }
+        }
+    }
     
 }//closes nav

@@ -186,6 +186,38 @@ nav .header-container a:hover {
   color: #E85A4F;
   text-decoration: underline;
 }
+nav .footer-nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav .footer-nav-container h1 {
+  font-size: 1.9rem;
+  color: #E85A4F;
+}
+nav .footer-nav-container a {
+  color: #8E8D8A;
+  text-decoration: none;
+  font-size: 1.9rem;
+  margin: 10px;
+}
+nav .footer-nav-container a:hover {
+  color: #E85A4F;
+  text-decoration: underline;
+}
+footer {
+  background-color: #EAE7DC;
+}
+footer p {
+  text-align: center;
+}
+.footer-nav-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  background-color: #EAE7DC;
+}
 .header-img-container {
   height: 800px;
   position: relative;
@@ -257,6 +289,11 @@ header {
 .about-container .features .blog h3 {
   font-size: 3rem;
   padding: 30px;
+}
+.about-container .features .follow p,
+.about-container .features .post p,
+.about-container .features .blog p {
+  font-size: 1.8rem;
 }
 .about-container .features .follow .fas,
 .about-container .features .post .fas,
