@@ -2,22 +2,40 @@
     height: 800px;
     position: relative;
 
+    @media @mobile{
+        height: 50vh;
+        
+    }
+
+    // @media @mobile {
+    //     height: 100vh;
+        
+    // }
+
     img{
         height: 100%;
         width: 100%;
         position: absolute;
         // max-height: 50%;
         // max-width: 100%;
+        @media @mobile{
+            display: none;
+        }
     }
 
     h1{
-        //z-index: 100;
         position: absolute;
         left:50%;
         top:30%;
         transform: translate(-50%, -50%); 
         color:white;
         font-size: 7em;
+        text-align: center;
+
+        @media @mobile {
+            color: @salmon;
+            top: 50%;
+        }
        
     }
 
@@ -33,6 +51,10 @@
         border: none;
         background-color: @salmon;
         color: @beige;
+
+        @media @mobile{
+            top: 100%;
+        }
     }
 }
 
@@ -43,6 +65,7 @@ header {
     background-color: @beige;
 
     //media q goes here
+   
 }
 
 .about-container{
@@ -51,6 +74,10 @@ header {
     margin: 20px;
     padding: 50px;
     text-align: center;
+
+    @media @mobile {
+        padding-top: 120px;
+    }
 
 
 
@@ -66,6 +93,10 @@ header {
         align-items: center;
         margin: 10px;
         justify-content: space-around;
+
+        @media @mobile {
+            flex-direction: column;
+        }
         
         
 
@@ -88,6 +119,10 @@ header {
             margin: 10px;
             background-color: @salmon;
             border-radius: 8px;
+
+            @media @mobile {
+                width: 100%;
+            }
 
         }//closes individual feature divs
 

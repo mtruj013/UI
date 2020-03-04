@@ -10,6 +10,10 @@ nav {
         h1{
             font-size: 1.9rem;
             color: @salmon;
+
+            @media @mobile {
+                text-align: center;
+            }
         }
 
 
@@ -23,7 +27,17 @@ nav {
                 color: @salmon;
                 text-decoration: underline;
             }
+
+            @media @mobile  {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
         }//closes links
+
+        @media @mobile{
+            flex-direction: column;
+        }
 
     }//closes header container
 
@@ -36,9 +50,17 @@ nav {
        padding-left: 20px;
        padding-right: 20px;
 
+       @media @mobile{
+           flex-direction: column;
+       }
+
         h1{
             font-size: 1.9rem;
             color: @salmon;
+
+            @media @mobile {
+                text-align: center;
+            }
         }
 
         a{
@@ -50,6 +72,11 @@ nav {
             &:hover{
                 color: @salmon;
                 text-decoration: underline;
+            }
+
+
+            @media @mobile {
+               display: none;
             }
         }
     }
