@@ -1,7 +1,7 @@
 .team-header {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px 0;
+    padding: 20px;
     background-color:@beige;
     //media q goes here
    
@@ -48,6 +48,16 @@
             padding-bottom: 20px;
             font-size: 2rem;
         }
+
+        @media @mobile {
+            width: 100%;
+        }
+
+    }//this closes team1 individual divs
+
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -79,5 +89,14 @@
             font-size: 2rem;
         }
 
+        @media @mobile{
+            width: 100%;
+        }
+
+    }//this closes team2 individual divs
+
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
     }
 }
