@@ -22,7 +22,7 @@
 .team1{
     display: flex;
     padding: 40px;
-    //text-align: center;
+    justify-content: space-around;
 
     .kelly, .nicole, .jonathan, .jacob{
         flex-direction: column;
@@ -32,6 +32,8 @@
 
         .fab{
             font-size: 3rem;
+            color: black;
+            margin: 7px;
         }
         
         h2{
@@ -56,14 +58,14 @@
     }//this closes team1 individual divs
 
     @media @mobile{
-        display: flex;
-        flex-direction: column;
+        .flex-column();
     }
 }
 
 .team2{
     display: flex;
     padding: 40px;
+    justify-content: space-around;
 
     .michael, .daniel, .maria{
         flex-direction: column;
@@ -72,6 +74,8 @@
 
         .fab{
             font-size: 3rem;
+            color: black;
+            margin: 7px;
         }
 
         h2{
@@ -96,7 +100,6 @@
     }//this closes team2 individual divs
 
     @media @mobile{
-        display: flex;
-        flex-direction: column;
+       .flex-column();
     }
 }
